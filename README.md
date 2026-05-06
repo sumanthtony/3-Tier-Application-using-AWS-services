@@ -16,6 +16,8 @@ Deployed 3 tier application using only AWS services VPC Bastion host connection 
 
 ---> Edit all 6 PHP files by changing **host name** (Copy the RDS end point URL and paste here), **username:** admin, **password:** admin123
 
+---> We need to install web server (apt install apache2 -y) & confirm it is running or not (systemctl status apche2) and need to send all the **EDITED PHP files** to web server path: cp -r * /var/www/html/
+
 
 
 
