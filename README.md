@@ -30,13 +30,17 @@ sudo apt-get install mysql-server -y
 <img width="1034" height="364" alt="image" src="https://github.com/user-attachments/assets/9e2f8066-0efe-4e7f-bffb-490d9fd813f2" />
 
 
----> SINCE WE HAVE LAUNCHED 3 PRIVATE SUBNETS TO SCALE THE APPLICATIONS AUTOMATICALLY WE'LL NEED TO CREATE ASG ==== LAUNCH TEMPLATE (We need AMI) + lOAD BALANCER (We need Target Group)
+---> SINCE WE HAVE LAUNCHED 3 PRIVATE SUBNETS TO SCALE THE APPLICATIONS AUTOMATICALLY WE'LL NEED TO CREATE **ASG ==== LAUNCH TEMPLATE (We need AMI) + lOAD BALANCER (We need Target Group)**
 
----> Create a CUSTOM IMAGE from PRIVATE-SERVER---image & templates---create image--Name: Bank-image (we can give any custom image)--save
+---> Create a CUSTOM IMAGE from PRIVATE-SERVER---select---actions----image & templates---create image--Name: Bank-image (we can give any custom image)--save
 
 Note: Wait for few minutes to be available of the IMAGE.
 
---->
+---> Once the AMI is available use this **AMI in launch Template** and save
+
+---> Create a TARGET GROUP (While selecting the SERVERS SELECT PRIVATE SERVER AND CLICK ON ADD AS PENDING BELOW OPTION & SAVE) & save---and create a LOAD BALANCER (While selecting Availability Zones ensure we are selecting PUBLIC-SUBNETS ONLY, because we can't attach PRIVATE-SUBNETS to the load balancers) and use this Target Group here.
+
+---> 
 
 
 
