@@ -24,7 +24,7 @@ sudo apt-get install php libapache2-mod-php php-mysql php-curl php-gd php-json p
 
 sudo apt-get install mysql-server -y
 
-
+---> Login into MYSQL: mysql -h mysqldb.cizikgiy6mw6.us-east-1.rds.amazonaws.com -u admin -p (Copy the RDS end point url, here -h is host), after entering the password execute all the SQL queries present in the repo;  https://github.com/sumanthtony/Blood-Bank-App-using-docker-k8s
 
 
 
