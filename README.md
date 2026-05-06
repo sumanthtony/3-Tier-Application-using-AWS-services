@@ -16,7 +16,7 @@ Deployed 3 tier application using only AWS services VPC Bastion host connection 
 
 ---> Edit all 6 PHP files by changing **host name** (Copy the RDS end point URL and paste here), **username:** admin, **password:** admin123
 
----> We need to install web server (apt install apache2 -y) & confirm it is running or not (systemctl status apche2) and need to send all the **EDITED PHP files** to web server path: cp -r * /var/www/html/
+---> We need to install web server (apt install apache2 -y && systemctl enable apache2) & confirm it is running or not (systemctl status apche2) and need to send all the **EDITED PHP files** to web server path: cp -r * /var/www/html/
 
 ---> Need to install MYSQL using below commands:
 
@@ -30,6 +30,11 @@ sudo apt-get install mysql-server -y
 <img width="1034" height="364" alt="image" src="https://github.com/user-attachments/assets/9e2f8066-0efe-4e7f-bffb-490d9fd813f2" />
 
 
+---> Create a CUSTOM IMAGE from PRIVATE-SERVER---image & templates---create image--Name: Bank-image (we can give any custom image)--save
+
+Note: Wait for few minutes to be available of the IMAGE.
+
+--->
 
 
 
