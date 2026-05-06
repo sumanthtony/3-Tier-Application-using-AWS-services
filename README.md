@@ -40,7 +40,25 @@ Note: Wait for few minutes to be available of the IMAGE.
 
 ---> Create a TARGET GROUP (While selecting the SERVERS SELECT PRIVATE SERVER AND CLICK ON ADD AS PENDING BELOW OPTION & SAVE) & save---and create a LOAD BALANCER (While selecting Availability Zones ensure we are selecting PUBLIC-SUBNETS ONLY, because we can't attach PRIVATE-SUBNETS to the load balancers) and use this Target Group here.
 
----> 
+---> Once the LOAD BALANCER is available copy the DNS name and paste in the browser we can able to access the BLOOD BANK APPLICATION.
+
+---> For scalability create a **Auto Scaling Group** and use launch template, target group, load balancer here and we can see based on the DESIRED number of servers we have given those will be created automatically in EC2 console.
+
+---> We can access the application using ASG created instances IP ADDRESS as well.
+
+                    ==== BELOW IS THE OUTPUT OF THE APPLICATION AND WHEN USER CREATES THE ACCOUNT DATA IS STORED IN THE MYSQL DATABASE ====
+
+
+<img width="1563" height="908" alt="image" src="https://github.com/user-attachments/assets/bc3c4878-9a36-4c08-83d6-4bdfef0172f5" />
+
+
+
+<img width="882" height="318" alt="image" src="https://github.com/user-attachments/assets/cf43c30a-c3e6-4254-9c01-e2931a488d39" />
+
+
+
+
+
 
 
 
