@@ -9,5 +9,10 @@ Deployed 3 tier application using only AWS services VPC Bastion host connection 
 <img width="1758" height="735" alt="image" src="https://github.com/user-attachments/assets/be0a4ad0-08fe-4468-8b84-1b963d3bbaf0" />
 
 
+---> Clone this repository into the Bastion server: git clone https://github.com/sumanthtony/Blood-Bank-App-using-docker-k8s
+
+
+
+
 
 
