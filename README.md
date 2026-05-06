@@ -30,6 +30,8 @@ sudo apt-get install mysql-server -y
 <img width="1034" height="364" alt="image" src="https://github.com/user-attachments/assets/9e2f8066-0efe-4e7f-bffb-490d9fd813f2" />
 
 
+---> SINCE WE HAVE LAUNCHED 3 PRIVATE SUBNETS TO SCALE THE APPLICATIONS AUTOMATICALLY WE'LL NEED TO CREATE ASG ==== LAUNCH TEMPLATE (We need AMI) + lOAD BALANCER (We need Target Group)
+
 ---> Create a CUSTOM IMAGE from PRIVATE-SERVER---image & templates---create image--Name: Bank-image (we can give any custom image)--save
 
 Note: Wait for few minutes to be available of the IMAGE.
