@@ -18,6 +18,13 @@ Deployed 3 tier application using only AWS services VPC Bastion host connection 
 
 ---> We need to install web server (apt install apache2 -y) & confirm it is running or not (systemctl status apche2) and need to send all the **EDITED PHP files** to web server path: cp -r * /var/www/html/
 
+---> Need to install MYSQL using below commands:
+
+sudo apt-get install php libapache2-mod-php php-mysql php-curl php-gd php-json php-zip php-mbstring -y
+
+sudo apt-get install mysql-server -y
+
+
 
 
 
