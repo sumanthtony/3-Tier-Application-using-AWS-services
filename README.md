@@ -21,6 +21,14 @@ Deployed 3 tier application using only AWS services VPC Bastion host connection 
 
 ---> Create a **Amazon RDS** with **MYSQL** and attach our newly created **MY-VPC to RDS**
 
+<img width="911" height="232" alt="mysql_db_name" src="https://github.com/user-attachments/assets/abe09412-cbd0-49b1-8c9f-2b931137b861" />
+
+NOTE: DATABASE NAMES ARE DECIDED BY THE DATABASE TEAM BASED ON THAT WE HAVE CREATE USING SAME NAME
+
+<img width="911" height="232" alt="mysql_db_name" src="https://github.com/user-attachments/assets/59bf3c9e-3fa6-4c5a-8272-aae81514a716" />
+
+
+
 ---> Edit all 6 PHP files by changing **host name** (Copy the RDS end point URL and paste here), **username:** admin, **password:** admin123
 
 ---> We need to install web server (apt install apache2 -y && systemctl enable apache2) & confirm it is running or not (systemctl status apche2) and need to send all the **EDITED PHP files** to web server path: cp -r * /var/www/html/
