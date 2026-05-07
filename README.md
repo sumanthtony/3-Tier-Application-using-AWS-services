@@ -9,6 +9,13 @@ Deployed 3 tier application using only AWS services VPC Bastion host connection 
 <img width="1758" height="735" alt="image" src="https://github.com/user-attachments/assets/be0a4ad0-08fe-4468-8b84-1b963d3bbaf0" />
 
 
+---> Below is the screenshot on how to connect to PRIVATE servers using PUBLIC servers through **Bastion server** connection concept:
+
+1. Connect to the public server and while we are in EC2-USER copy the KEY-PAIR name we have used for both PUBLIC & PRIVATE servers and open in VIM editor with same name ending with **.pem**
+2. Paste the KEY-PAIR PRIVATE KEY and save it, then give 400 permissions to the key-pair file, **chmod 400 NV-KP.pem** then click on PRIVATE SERVER---connect---click on SSH-CONNECT---copy the EXAMPLE shown like below and paste in the public server, click on **yes** we can able to successfully able to connect to PRIVATE SERVER through PUBLIC SERVER.
+
+<img width="740" height="226" alt="private-server-connection" src="https://github.com/user-attachments/assets/a4532c70-8191-436d-9ba7-8f89a3843eb1" />
+
 
 ---> Clone this repository into the Bastion server: git clone https://github.com/sumanthtony/Blood-Bank-App-using-docker-k8s
 
