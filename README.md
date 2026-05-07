@@ -21,8 +21,6 @@ Deployed 3 tier application using only AWS services VPC Bastion host connection 
 
 ---> Create a **Amazon RDS** with **MYSQL** and attach our newly created **MY-VPC to RDS**
 
-<img width="911" height="232" alt="mysql_db_name" src="https://github.com/user-attachments/assets/abe09412-cbd0-49b1-8c9f-2b931137b861" />
-
 NOTE: DATABASE NAMES ARE DECIDED BY THE DATABASE TEAM BASED ON THAT WE HAVE CREATE USING SAME NAME
 
 <img width="911" height="232" alt="mysql_db_name" src="https://github.com/user-attachments/assets/59bf3c9e-3fa6-4c5a-8272-aae81514a716" />
